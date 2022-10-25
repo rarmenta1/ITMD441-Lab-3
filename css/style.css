@@ -13,12 +13,14 @@ body	{
 #assignmentName {
   margin-left: 16px;
   font-size: 1.5em;
+  color: rgb(114, 137, 218);
 
 }
 
 #heading {
 	text-align: center;
   font-size: 72px;
+  color: rgb(114, 137, 218);
 
 }
 
@@ -26,7 +28,7 @@ body	{
   background-color: rgb(114, 137, 218);
   font-size: 36px;
 	text-align: left;
-	width: 55%;
+	width: 45%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -35,7 +37,7 @@ body	{
   margin: 10px;
 }
 
-.textbox {
+.textbox, .textbox2 {
   color: black;
   float: right;
 }
@@ -43,4 +45,9 @@ body	{
 .rangefield  {
   margin-left: 36%;
   width: 50%;
+}
+
+.textbox2  {
+  background-color: #C5D0D1
+  ;
 }
