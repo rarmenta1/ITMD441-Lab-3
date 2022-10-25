@@ -22,19 +22,19 @@
           </div>
           <div class="form-field">
             <label class="sub-heading">Tip:</label>
-            <input type="range" class="rangefield" id="bill_total_field" name="bill_total_field" min="0" max="100" onchange="updateTipInput(this.value);">
+            <input type="range" class="rangefield" id="bill_total_field" name="bill_total_field" min="0" max="100" oninput="updateTipInput(this.value);">
           </div>
           <div class="form-field">
             <label class="sub-heading">Tip Percentage:</label>
-            <input type="text" class="textbox" id="tip_percent_field" name="tip_percent_field">
+            <input type="text" class="textbox" id="tip_percent_field" name="tip_percent_field" disabled>
           </div>
           <div class="form-field">
             <label class="sub-heading">Tip Amount:</label>
-            <input type="text" class="textbox" id="tip_amount_field" name="tip_amount_field">
+            <input type="text" class="textbox" id="tip_amount_field" name="tip_amount_field" disabled>
           </div>
           <div class="form-field">
             <label class="sub-heading">Total Bill with Tip:</label>
-            <input type="text" class="textbox" name="total_bill_field">
+            <input type="text" class="textbox" name="total_bill_field" disabled>
           </div>
         </fieldset>
       </form>
